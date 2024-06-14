@@ -1,0 +1,43 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    
+}
+
+input{
+    color:rebeccapurple;
+    font: bolder;
+    box-shadow: 0 0 0 90 rgb(150, 164, 180);
+}
+
+label{
+    color: aqua;
+    font-style: italic;
+}
+
+button{
+    font-weight: bold;
+    color: rgb(64, 185, 74);
+}
+
+.torete{
+    text-align: center;
+}
+
+.bebe{
+    text-align: center;
+}
+
+.bebeq{
+    text-align: center;
+}
+
+.lalab{
+    text-align: center;
+}
+
+h1{
+    color: white;
+   text-align: center;
+   padding-top: 100px;
+}

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="jav.css">
+    <title>Website</title>
+    
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="traa.png" class="logo"/>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="images.html">Product</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="exercise.html">Activity</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Clothing</p>
+                <h1>Hi, I'm <span>Kyle</span><br />James From K Clothing</h1>
+            </div>
+        </div>
+    </div>
+   
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="pogs.jpg" />
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Hey, this is my homepage, so I have to say something about myself. Sometimes it is hard to introduce yourself because you know yourself so well that you do not know where to start with. Let me give a try to see what kind of image you have about me through my self-description. I hope that my impression about myself and your impression about me are not so different. Here it goes.
+                        I am a person who is positive about every aspect of life. There are many things I like to do, to see, and to experience. I like to read, I like to write; I like to think, I like to dream; I like to talk, I like to listen. I like to see the sunrise in the morning, I like to see the moonlight at night; I like to feel the music flowing on my face, I like to smell the wind coming from the ocean. I like to look at the clouds in the sky with a blank mind, I like to do thought experiment when I cannot sleep in the middle of the night. I like flowers in spring, rain in summer, leaves in autumn, and snow in winter. I like to sleep early, I like to get up late; I like to be alone, I like to be surrounded by people. I like country’s peace, I like metropolis’ noise; I like the beautiful west lake in Hangzhou, I like the flat cornfield in Champaign. I like delicious food and comfortable shoes; I like good books and romantic movies. I like the land and the nature, I like people. And, I like to laugh I always wanted to be a great writer, like Victor Hugo who wrote "Les Miserable", or like Roman Roland who wrote "John Christopher". They have influenced millions of people through their books. I also wanted to be a great psychologist, like William James or Sigmund Freud, who could read people’s mind. Of course, I am nowhere close to these people, yet. I am just someone who does some teaching, some research, and some writing. But my dream is still alive.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Communication</span><br />Approved</li>
+                            <li><span>LeaderShip</span><br />Approved</li>
+                            <li><span>Creativity</span><br /> Approved</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024 - Current</span><br />No-Experience</li>
+                            <li><span>2022-2023</span><br />No-Experience</li>
+                            <li><span>2021-2022</span><br />No-Experience</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                       <ul>
+                        <li><span>2024-Present</span><br />Bachelor of Science and Information System</li>
+                        <li><span>2022-2023</span><br />South-Western College of Maritime Business and Technology</li>
+                        <li><span>2020-2021</span><br /> Nag-Iba National High School</li>
+                       </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                        <h2>T-Shirt Selling</h2>
+                        <p>
+                            One of the simplest and most effective clothing ads ideas is to create a lookbook featuring your latest collection of trendy dresses. 
+                        </p>
+                        <a href="#">Learn more</a>
+                    
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop-simple"></i>
+                    <h2>Clothing Designer</h2>
+                    <p>
+                        This creates awareness of your product and engagement with relevant users. 
+                    </p>
+                    <a href="#">Lean more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Clothing Creator</h2>
+                    <p>
+                        It's an effective way of showing what the brand stands for with a lookbook of its latest collection.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="product">
+        <div class="container">
+            <h1 class="sub-title">My Product</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="pogs.jpg" />
+                    <div class="layer">
+                        <h3>Mind Games</h3>
+                        <p>
+                            Mind games (also power games or head games) are actions performed for reasons of psychological one-upmanship, often employing passive–aggressive behavior to specifically demoralize or dis-empower the thinking subject, making the aggressor look superior.
+                        </p>
+                        <a href="#">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i
+                        ></a>
+                    </div>
+                </div>
+                    <div class="work">
+                        <img src="pogs.jpg" />
+                        <div class="layer">
+                            <h3>Praise MNL</h3>
+                            <p>
+                                Changing culture through a new sound of praise and worship. The planetboom Band is passionate about encountering God, seeking His Presence and bringing
+                            </p>
+                            <a href="#">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i
+                            ></a>
+                        </div>
+                    </div>
+                        <div class="work">
+                            <img src="pogs.jpg" />
+                            <div class="layer">
+                                <h3>Conceit</h3>
+                                <p>
+                                    Any of a wide variety of articles, usually made of fabrics, animal hair, animal skin, or some combination thereof, used to cover the human ...
+                                </p>
+                                <a href="#">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i
+                                ></a>
+                            </div>
+                        </div>
+                    </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>kyleespanola69@gmail.com</p>
+                    <p><i class="fa-sharp fa-solid fa-phone"></i>09383497918</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="pogs.jpg" download class="btn btn2">Download</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required />
+                        <input
+                        type="email"
+                        name="email"
+                        placeholder="Your Email"
+                        required />
+
+                        <textarea
+                        name="Message"
+                        rows="6"
+                        placeholder="Your Message"
+                        ></textarea>
+                         <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>
+                Copyright @ kyle. Made With <i class="fa-solid fa-heart"></i> by James
+            </p>
+        </div>
+    </div>
+
+  
+
+    <script src="berto.js"></script>
+</body>
+</html>

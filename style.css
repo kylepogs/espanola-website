@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.gallery div img{
+    width: 100%;
+    transition: 0.5s;
+}
+.gallery{
+    margin-top: 120px;
+    width: 900px;
+    display: flex;
+    cursor: pointer;
+    overflow-x: scroll;
+}
+.gallery div{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    padding: 10px;
+    flex: none;
+}
+.gallery div img:hover{
+    transform: scale(1.1);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+}
+#angle-gauche, #angle-droite{
+    width: 50px;
+    margin: 80px;
+    margin-top: 15%;
+    font-size: 35px;
+}
+
+h1{
+    text-align: center;
+    color: blue;
+    font-size: 50px;
+}
+
+p{
+    text-align: center;
+}
